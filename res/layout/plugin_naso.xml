@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/spSendText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <RadioGroup
+        android:id="@+id/radioGroupNaso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioNaso0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/plugin_naso_no" />
+
+        <RadioButton
+            android:id="@+id/radioNaso1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plugin_naso_uno" />
+
+        <RadioButton
+            android:id="@+id/radioNaso2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plugin_naso_due" />
+    </RadioGroup>
+    
+    <Button
+        android:id="@+id/bntNaso"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/plugin_send" />
+</LinearLayout>
+
+

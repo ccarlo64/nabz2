@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/spSleepWakeup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <RadioGroup
+        android:id="@+id/radioGroupSleepWakeup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioSleepWakeup0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/plugin_sleep" />
+
+        <RadioButton
+            android:id="@+id/radioSleepWakeup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plugin_wakeup" />
+
+    </RadioGroup>
+    
+    <Button
+        android:id="@+id/bntSleepWakeup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/plugin_send" />
+</LinearLayout>
+
+
